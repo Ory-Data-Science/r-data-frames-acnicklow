@@ -1,0 +1,8 @@
+install.packages("dplyr")
+library(dplyr)
+help(package = "dplyr")
+> setwd("~/GitHub/r-data-frames-acnicklow")
+> shrubs <- read.csv("shrub-volume-experiment.csv")
+> names(shrubs)
+str(shrubs)
+head(shrubs)
